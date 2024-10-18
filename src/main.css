@@ -1,0 +1,9 @@
+body {
+    min-width: 400px;
+    padding: 24px;
+}
+
+.clickable {
+    cursor: pointer;
+    user-select: none;
+}

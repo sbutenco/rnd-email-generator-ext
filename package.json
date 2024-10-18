@@ -1,0 +1,19 @@
+{
+    "name": "rnd-email-generator",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build && cp src/manifest.json dist/",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@types/bootstrap": "^5.2.10",
+        "typescript": "^5.6.2",
+        "vite": "^5.4.9"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.3"
+    }
+}
